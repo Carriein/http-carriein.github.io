@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>24楼 | Carriein</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://http-carriein.github.io/favicon.ico?v=1627225591324">
+<link rel="stylesheet" href="https://http-carriein.github.io/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="这栋楼有28层
+我住在6楼
+在这里生活第226天
+晚上21点多
+从一栋楼的5层搭电梯到3层
+去往另一栋楼
+在3层搭电梯往上
+24楼
+正正方方的天台
+得以呼吸
+得以望高楼
+我还是像往常
+早点睡觉
+一日三餐
+往返职场
+洗漱刷牙
+上网淘宝
+陪伴家..." />
+    <meta name="keywords" content="stories" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://http-carriein.github.io">
+        <img src="https://http-carriein.github.io/images/avatar.png?v=1627225591324" class="site-logo">
+        <h1 class="site-title">Carriein</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="tags" class="site-nav" target="_blank">
+            stories
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      carrying
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Carriein</a> | <a class="rss" href="https://http-carriein.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">24楼</h2>
+            <div class="post-date">2021-07-24</div>
+            
+            <div class="post-content" v-pre>
+              <p>这栋楼有28层<br>
+我住在6楼<br>
+在这里生活第226天<br>
+晚上21点多<br>
+从一栋楼的5层搭电梯到3层<br>
+去往另一栋楼<br>
+在3层搭电梯往上<br>
+24楼<br>
+正正方方的天台<br>
+得以呼吸<br>
+得以望高楼</p>
+<p>我还是像往常<br>
+早点睡觉<br>
+一日三餐<br>
+往返职场<br>
+洗漱刷牙<br>
+上网淘宝<br>
+陪伴家人</p>
+<p>只是<br>
+没那么期待活着了。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://http-carriein.github.io/tag/M0CwdiEAK/" class="tag">
+                    stories
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'a08dca19006ac9015f54',
+        clientSecret: '7d3c5f66b4864c027fb41d8f475b34886cffda7a',
+        repo: 'carriein.github.io',
+        owner: 'carriein',
+        admin: ['carriein'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
